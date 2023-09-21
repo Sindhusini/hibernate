@@ -1,0 +1,18 @@
+
+<persistence>  
+<persistence-unit name="Student_details">  
+      
+    <class>com.Trio.Student</class>  
+    <properties>  
+<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.oracleDriver"/>  
+<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:orcl"/>  
+<property name="javax.persistence.jdbc.user" value="system"/>  
+<property name="javax.persistence.jdbc.password" value="System123"/>  
+<property name="eclipselink.logging.level" value="SEVERE"/>  
+<property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>  
+<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+</properties>  
+  
+    </persistence-unit>  
+</persistence>  
+  
